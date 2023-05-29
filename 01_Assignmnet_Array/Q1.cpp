@@ -57,7 +57,7 @@ vector<int> sum(int n, vector<int> &nums, int target) {
   Time Complexity: O(nlogn)
   Space Complexity: O(1)
 */
-vector sum(int n, vector<int> &nums, int target) {
+vector<int> sum(int n, vector<int> &nums, int target) {
     sort(nums.begin(), nums.end());
     vector<int> ans;
     int left = 0, right = n - 1;
